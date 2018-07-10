@@ -4,6 +4,7 @@ networks/classifiers/__pycache__/
 *.pyc
 
 \.idea/
-datasets/
+datasets/2015_BOE_Chiu/
+datasets/octdatas/
 results/
 .ipynb_checkpoints/
