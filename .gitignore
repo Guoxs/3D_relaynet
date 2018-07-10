@@ -1,0 +1,9 @@
+
+networks/classifiers/__pycache__/
+
+*.pyc
+
+\.idea/
+datasets/
+results/
+.ipynb_checkpoints/
