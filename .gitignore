@@ -6,5 +6,8 @@ networks/classifiers/__pycache__/
 \.idea/
 datasets/2015_BOE_Chiu/
 datasets/octdatas/
+datasets/new_data/
 results/
 .ipynb_checkpoints/
+mri_data/
+MRbrain.tar.gz

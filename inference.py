@@ -5,6 +5,7 @@ import torch.nn.functional as F
 import torch
 from torch.autograd import Variable
 
+
 data01 = sio.loadmat('./datasets/2015_BOE_Chiu/Subject_01.mat')
 
 images = data01['images']
@@ -26,10 +27,8 @@ SEG_LABELS_LIST = [
     {"id": 5, "name": "ONL-ISM: Outer Nuclear layer to Inner segment myeloid", "rgb_values": [0, 128, 128]},
     {"id": 6, "name": "ISE: Inner segment ellipsoid", "rgb_values": [128, 128, 128]},
     {"id": 7, "name": "OS-RPE: Outer segment to Retinal pigment epithelium", "rgb_values": [64, 0, 0]},
-    {"id": 8, "name": "Region below RPE (RbR)", "rgb_values": [192, 0, 0]}]
-
-
-# {"id": 9, "name": "Fluid region", "rgb_values": [64, 128, 0]}];
+    {"id": 8, "name": "Region below RPE (RbR)", "rgb_values": [192, 0, 0]},
+    {"id": 9, "name": "Fluid region", "rgb_values": [64, 128, 0]}]
 
 def label_img_to_rgb(label_img):
     label_img = np.squeeze(label_img)
